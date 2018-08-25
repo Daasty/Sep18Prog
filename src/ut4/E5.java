@@ -24,12 +24,15 @@ public class E5 {
             System.out.println("No hay coincidencias.");
         }
 
+        System.out.println();
+        System.out.println();
+
         //Valores del segundo array que no están en el primero
         boolean sw1 = false;
 
         for (int i = 0; i < array2.length; i++) {
             sw1 = false;
-            for (int j = 0; i < array1.length; j++) {
+            for (int j = 0; j < array1.length; j++) {
                 if (array2[i] == array1[j]) {
                     sw1 = true;
                 }
