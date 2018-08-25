@@ -4,6 +4,6 @@ Modificación del anterior que muestre de resultado la primera posición del vec
  */
 public class E7 {
     public static void main(String[] args) {
-        
+
     }
 }

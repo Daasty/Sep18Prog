@@ -1,4 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
 .idea/workspace.xml
+.idea/*
 out/
+.idea/misc.xml
+.idea/vcs.xml
