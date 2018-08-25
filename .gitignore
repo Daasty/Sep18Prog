@@ -2,6 +2,9 @@
 .gitignore
 .idea/workspace.xml
 .idea/*
+.idea
 out/
 .idea/misc.xml
 .idea/vcs.xml
+.idea/modules.xml
+.idea/Sep18Prog.iml
