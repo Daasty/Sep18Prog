@@ -1,2 +1,4 @@
-/.idea/*
-Sep18Prog.iml
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/workspace.xml
+out/
