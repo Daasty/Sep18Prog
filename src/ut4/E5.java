@@ -20,7 +20,23 @@ public class E5 {
                 }
             }
         }
-        if (sw) System.out.println("No hay coincidencias.");
+        if (sw) {
+            System.out.println("No hay coincidencias.");
+        }
 
+        //Valores del segundo array que no están en el primero
+        boolean sw1 = false;
+
+        for (int i = 0; i < array2.length; i++) {
+            sw1 = false;
+            for (int j = 0; i < array1.length; j++) {
+                if (array2[i] == array1[j]) {
+                    sw1 = true;
+                }
+            }
+            if (!sw1) {
+                System.out.printf("No existe el valor en array2 -> %d || Valor -> %d \n", i, array2[i]);
+            }
+        }
     }
 }
